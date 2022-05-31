@@ -1,5 +1,5 @@
 {
-  "name": "@wangeditor/plugin-edit-html",
+  "name": "wangeditor-plugin-edit-html",
   "version": "1.0.0",
   "description": "wangEditor 编辑 HTML 插件",
   "repository": {

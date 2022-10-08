@@ -11,7 +11,7 @@
 ## 安装
 
 ```shell
-yarn add @wangeditor/plugin-edit-html
+yarn add wangeditor-plugin-edit-html
 ```
 
 ## 使用
@@ -20,7 +20,7 @@ yarn add @wangeditor/plugin-edit-html
 
 ```js
 import { Boot, IEditorConfig, IToolbarConfig } from '@wangeditor/editor'
-import editHtmlModule from '@wangeditor/plugin-edit-html'
+import editHtmlModule from 'wangeditor-plugin-edit-html'
 
 // 注册。要在创建编辑器之前注册，且只能注册一次，不可重复注册。
 Boot.registerModule(editHtmlModule)

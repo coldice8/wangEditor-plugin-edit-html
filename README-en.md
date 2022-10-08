@@ -11,7 +11,7 @@
 ## Installation
 
 ```shell
-yarn add @wangeditor/plugin-edit-html
+yarn add wangeditor-plugin-edit-html
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ yarn add @wangeditor/plugin-edit-html
 
 ```js
 import { Boot, IEditorConfig, IToolbarConfig } from '@wangeditor/editor'
-import editHtmlModule from '@wangeditor/plugin-edit-html'
+import editHtmlModule from 'wangeditor-plugin-edit-html'
 
 // Register
 // You should register this before create editor, and register only once (not repeatedly).
